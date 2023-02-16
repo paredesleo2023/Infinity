@@ -1,0 +1,93 @@
+html {
+    font-size: 62.5%;
+    background-image: url(./assets/ergo.jpg);
+    object-fit: contain;
+}
+
+*{
+    box-sizing: border-boxr;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --large: 2rem;
+    --mediunm: 1.8rem;
+    --small: 1.6rem;
+    --sosmall: 1.4 rem;
+    --softgreen: #58F4CD;
+    --mediumgreen: #4CD416;
+    --hardgreen: #0C745A;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+}
+
+main
+{
+    width: 100%;
+    height: 90vh;
+}
+
+.nav-container
+{
+    width: 100%;
+    height: 100%;
+} 
+
+.nav 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;  
+}
+
+.nav2
+{
+    width: 8%;
+    height: 25%;
+    margin: auto 0;
+    margin-right: 4%;
+}
+
+.nav2 img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.container 
+{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.b1
+{
+    width: 100%;
+    height: 25%;
+}
+
+.b1 p 
+{
+    width: fit-content;
+    height: 80%;
+    margin: auto;
+    font-size: 6rem;
+    font-weight: bolder;
+    color: var(--white);
+}
+
+.b1 p:hover
+{
+    color: yellow;
+    cursor: pointer;
+}

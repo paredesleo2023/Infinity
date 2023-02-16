@@ -1,0 +1,40 @@
+html {
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-boxr;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --large: 2rem;
+    --mediunm: 1.8rem;
+    --small: 1.6rem;
+    --sosmall: 1.4 rem;
+    --softgreen: #58F4CD;
+    --mediumgreen: #4CD416;
+    --hardgreen: #0C745A;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+main
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.uno
+{
+    width: 50%;
+    height: 100vh;
+}
+
+.dos
+{
+    width: 50%;
+    height: 100vh;
+}
